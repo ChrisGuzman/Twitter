@@ -1,5 +1,7 @@
 # RestClientTemplate [![Build Status](https://travis-ci.org/codepath/android-rest-client-template.svg?branch=master)](https://travis-ci.org/codepath/android-rest-client-template)
 
+![](ezgif-1-09493aeb1a.gif)
+
 ![GIf of the twitter app crashing](ezgif-2-03105ea7f3.gif)
 
 ## Overview
