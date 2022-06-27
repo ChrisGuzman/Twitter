@@ -25,7 +25,7 @@ import com.github.scribejava.core.builder.api.BaseApi;
  */
 public class RestClient extends OAuthBaseClient {
 	public static final BaseApi REST_API_INSTANCE = FlickrApi.instance(FlickrApi.FlickrPerm.WRITE); // Change this
-	public static final String REST_URL = "twitter.com/";
+	public static final String REST_URL = "http://twitter.com/";
 	public static final String REST_CONSUMER_KEY = CONSUMER_KEY;
 	public static final String REST_CONSUMER_SECRET = CONSUMER_SECRET;
 
