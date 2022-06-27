@@ -1,6 +1,7 @@
 package com.codepath.apps.restclienttemplate;
 
 import static com.github.scribejava.core.model.OAuthConstants.CONSUMER_KEY;
+import static com.github.scribejava.core.model.OAuthConstants.CONSUMER_SECRET;
 
 import android.content.Context;
 
@@ -24,9 +25,9 @@ import com.github.scribejava.core.builder.api.BaseApi;
  */
 public class RestClient extends OAuthBaseClient {
 	public static final BaseApi REST_API_INSTANCE = FlickrApi.instance(FlickrApi.FlickrPerm.WRITE); // Change this
-	public static final String REST_URL = "twitter.comp";
+	public static final String REST_URL = "twitter.com/";
 	public static final String REST_CONSUMER_KEY = CONSUMER_KEY;
-	public static final String REST_CONSUMER_SECRET = "EeyJ4vEZN3al7c0C13bMwAY3pGc2RASrampYtvJvnX1kLDHKJf";
+	public static final String REST_CONSUMER_SECRET = CONSUMER_SECRET;
 
 	// Landing page to indicate the OAuth flow worked in case Chrome for Android 25+ blocks navigation back to the app.
 	public static final String FALLBACK_URL = "https://codepath.github.io/android-rest-client-template/success.html";
